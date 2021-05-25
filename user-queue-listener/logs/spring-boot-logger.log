@@ -1,0 +1,77 @@
+12:52:34.276 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 22416 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+12:52:34.282 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+12:52:34.367 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:52:34.368 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:52:36.000 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+12:52:36.019 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+12:52:36.020 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+12:52:36.020 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+12:52:36.141 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+12:52:36.142 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1773 ms
+12:52:37.081 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+12:52:37.237 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+12:52:37.267 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+12:52:37.270 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+12:52:37.802 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#6dd807bd:0/SimpleConnection@47e8a1bb [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 58958]
+12:52:38.177 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 4.513 seconds (JVM running for 6.306)
+12:52:38.179 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+12:52:38.182 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+12:53:47.863 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=1c09f062-b2e4-4208-aa52-e833b2ba71af, messageBody=new Employee createdprasadballa@gmail.com, messageDate=Tue May 25 12:53:47 IST 2021]
+12:55:16.306 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=27da84bf-1971-4e6e-a2d6-20e8fbe8302c, messageBody=new Employee createdmohanballa@gmail.com, messageDate=Tue May 25 12:55:16 IST 2021]
+13:00:45.691 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 3652 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+13:00:45.694 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+13:00:45.776 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:00:45.777 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:00:47.103 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+13:00:47.117 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+13:00:47.118 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+13:00:47.118 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:00:47.213 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+13:00:47.214 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1437 ms
+13:00:48.083 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+13:00:48.235 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+13:00:48.269 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+13:00:48.272 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+13:00:48.523 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#14ae83da:0/SimpleConnection@6764489a [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 50061]
+13:00:48.733 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 3.543 seconds (JVM running for 5.24)
+13:00:48.735 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+13:00:48.737 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+13:00:48.821 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=8aaa5ce1-5fd1-46af-9f90-4cd40f84c085, messageBody=new Employee createdmohanvamsiballa@gmail.com, messageDate=Tue May 25 12:59:51 IST 2021]
+13:22:09.350 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=36d1b483-a954-47bf-9199-ae668e0a696f, messageBody=new Employee created sunithaballa@gmail.com, messageDate=Tue May 25 13:22:08 IST 2021]
+13:29:00.625 [34mINFO [0;39m [  Thread-1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+13:29:00.669 [34mINFO [0;39m [  Thread-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+13:29:01.094 [34mINFO [0;39m [  Thread-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+13:29:03.777 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 3652 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+13:29:03.778 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+13:29:04.047 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+13:29:04.048 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+13:29:04.049 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:29:04.079 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat-1].[localhost].[/]    [0;39m - Initializing Spring embedded WebApplicationContext
+13:29:04.080 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 295 ms
+13:29:04.254 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+13:29:04.289 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+13:29:04.290 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+13:29:04.458 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#69613686:0/SimpleConnection@563d302c [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 50536]
+13:29:04.631 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.913 seconds (JVM running for 1701.138)
+13:29:04.632 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+13:29:04.634 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+13:29:04.634 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+13:29:34.439 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=e06dc536-8ac2-4b51-9603-39b55258b426, messageBody=new Employee created raviballa@gmail.com, messageDate=Tue May 25 13:29:34 IST 2021]
+13:37:23.936 [34mINFO [0;39m [  Thread-7] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+13:37:23.980 [34mINFO [0;39m [  Thread-7] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+13:37:24.751 [34mINFO [0;39m [  Thread-7] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+13:37:25.021 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 3652 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+13:37:25.021 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+13:37:25.161 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+13:37:25.162 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+13:37:25.162 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:37:25.182 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat-1].[localhost].[/]    [0;39m - Initializing Spring embedded WebApplicationContext
+13:37:25.182 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 159 ms
+13:37:25.251 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+13:37:25.264 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+13:37:25.265 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+13:37:25.419 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7bcc387f:0/SimpleConnection@665951d6 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 50714]
+13:37:25.586 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.587 seconds (JVM running for 2202.093)
+13:37:25.587 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+13:37:25.589 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+13:37:25.590 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

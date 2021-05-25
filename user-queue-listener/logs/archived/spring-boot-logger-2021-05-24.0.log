@@ -1,0 +1,674 @@
+18:53:16.865 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 23660 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+18:53:16.869 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+18:53:16.937 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:53:16.938 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:53:18.302 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+18:53:18.326 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+18:53:18.327 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:53:18.327 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:53:18.425 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:53:18.426 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1487 ms
+18:53:19.195 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+18:53:19.316 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+18:53:19.345 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+18:53:19.348 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:53:23.444 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+18:53:23.457 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:53:27.529 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 11.231 seconds (JVM running for 12.929)
+18:53:27.531 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+18:53:27.534 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:53:32.654 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:53:32.656 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@77c334e6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:53:32.659 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:53:41.915 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:53:41.915 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@6f5d0dfb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:53:41.917 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:53:51.159 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:53:51.159 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@23df89f5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:53:51.160 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:54:00.369 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:54:00.369 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@37a6d834: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:54:00.370 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:54:09.483 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:54:09.483 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@6056ab27: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:54:09.484 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:54:18.723 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:54:18.723 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@576fb77c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:54:18.724 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:54:19.265 [34mINFO [0;39m [RMI TCP Connection(3)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+18:54:19.265 [34mINFO [0;39m [RMI TCP Connection(3)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+18:54:19.268 [34mINFO [0;39m [RMI TCP Connection(3)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+18:54:19.269 [34mINFO [0;39m [RMI TCP Connection(3)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+18:54:20.381 [34mINFO [0;39m [RMI TCP Connection(5)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+18:55:52.267 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 20052 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+18:55:52.269 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+18:55:52.346 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:55:52.346 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:55:53.642 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+18:55:53.659 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+18:55:53.660 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:55:53.660 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:55:53.763 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:55:53.763 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1416 ms
+18:55:54.519 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+18:55:54.646 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+18:55:54.671 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+18:55:54.673 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:55:58.738 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+18:55:58.750 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:02.812 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 11.081 seconds (JVM running for 12.675)
+18:56:02.814 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+18:56:02.816 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:56:07.980 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:56:07.982 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@3382c3d0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:56:07.984 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:17.190 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:56:17.191 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@7b786b31: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:56:17.194 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:26.407 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:56:26.407 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@20a4550c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:56:26.408 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:35.607 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:56:35.607 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@67e698cf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:56:35.608 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:44.827 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+18:56:44.827 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@551d5522: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+18:56:44.828 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [localhost:5672]
+18:56:48.254 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+18:56:48.254 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+18:56:48.257 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+18:56:48.258 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+18:57:21.902 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 18804 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+18:57:21.906 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+18:57:21.978 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:57:21.978 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:57:23.340 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+18:57:23.352 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+18:57:23.352 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:57:23.353 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+18:57:23.452 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:57:23.453 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1474 ms
+18:57:24.158 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+18:57:24.276 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+18:57:24.300 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+18:57:24.303 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+18:57:24.540 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#6cf8de6d:0/SimpleConnection@4976504c [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 54997]
+18:57:24.768 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[105], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=29bb1ae5-97dc-89e0-82e5-05a164facd84, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844764}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.770 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'{"messageId":"102fee80-f2c8-4fa7-9bdc-fecea83e8d61","messageBody":"hi balla","messageDate":1621858180386}' MessageProperties [headers={__TypeId__=com.javatraining.jpaexample.messaging.CustomMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=true, receivedExchange=2032-topic1, receivedRoutingKey=2032-router1, deliveryTag=1, consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, consumerQueue=2032-queue1])
+18:57:24.770 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 3.396 seconds (JVM running for 4.906)
+18:57:24.770 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[105], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=29bb1ae5-97dc-89e0-82e5-05a164facd84, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844764}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.771 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+18:57:24.774 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+18:57:24.776 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=2, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=1691a309-e0a2-4970-d928-0187a2fd6938, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844776}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.777 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'{"messageId":"5481d7d2-42ce-4836-ae51-e95d1610f8a4","messageBody":"new Employee created150","messageDate":1621858672826}' MessageProperties [headers={__TypeId__=com.javatraining.jpaexample.messaging.CustomMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=true, receivedExchange=2032-topic1, receivedRoutingKey=2032-router1, deliveryTag=2, consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, consumerQueue=2032-queue1])
+18:57:24.777 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=2, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=1691a309-e0a2-4970-d928-0187a2fd6938, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844776}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.778 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=3, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=1ba0d878-1550-1b45-90a7-03bad44a0a48, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844778}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.778 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'{"messageId":"fc619f2c-906b-42c4-8974-774461f13f5d","messageBody":"new Employee created150","messageDate":1621858773886}' MessageProperties [headers={__TypeId__=com.javatraining.jpaexample.messaging.CustomMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=true, receivedExchange=2032-topic1, receivedRoutingKey=2032-router1, deliveryTag=3, consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, consumerQueue=2032-queue1])
+18:57:24.778 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=3, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=1ba0d878-1550-1b45-90a7-03bad44a0a48, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844778}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.780 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=4, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=4edc4358-bdd8-c951-5b4c-670b117f06a0, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844779}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+18:57:24.780 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'{"messageId":"5b28cffb-4276-4781-b4d4-031e8a52af88","messageBody":"new Employee created150","messageDate":1621858944356}' MessageProperties [headers={__TypeId__=com.javatraining.jpaexample.messaging.CustomMessage}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=true, receivedExchange=2032-topic1, receivedRoutingKey=2032-router1, deliveryTag=4, consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, consumerQueue=2032-queue1])
+18:57:24.780 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@9fc98e9]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[120], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=2032-topic1, amqp_deliveryTag=4, amqp_consumerQueue=2032-queue1, amqp_redelivered=true, amqp_receivedRoutingKey=2032-router1, amqp_contentEncoding=UTF-8, id=4edc4358-bdd8-c951-5b4c-670b117f06a0, amqp_consumerTag=amq.ctag-qbRrq7UAPVXLvADn_cHsHw, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.javatraining.jpaexample.messaging.CustomMessage, timestamp=1621862844779}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+19:01:28.135 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+19:01:28.135 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:01:28.184 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:01:28.914 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:01:44.762 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:01:44.765 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:01:44.845 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:01:44.845 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:01:46.618 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:01:46.633 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:01:46.633 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:01:46.634 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:01:46.721 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:01:46.721 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1875 ms
+19:01:47.589 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:01:47.722 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:01:47.756 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:01:47.761 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:01:48.032 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7028c224:0/SimpleConnection@62fb1615 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55104]
+19:01:48.304 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 4.239 seconds (JVM running for 5.9)
+19:01:48.306 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:01:48.308 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:04:21.945 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@4a4cc59a]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[11], headers={amqp_receivedDeliveryMode=NON_PERSISTENT, amqp_receivedRoutingKey=2032-queue1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=false, id=47cde1a7-586f-16af-4645-8c678850a2a6, amqp_consumerTag=amq.ctag-FPKn5Wf9cxN3GttewHnsSg, amqp_lastInBatch=false, timestamp=1621863261941}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+19:04:21.947 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@1a1fbf05(byte[11])' MessageProperties [headers={}, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, redelivered=false, receivedExchange=, receivedRoutingKey=2032-queue1, deliveryTag=1, consumerTag=amq.ctag-FPKn5Wf9cxN3GttewHnsSg, consumerQueue=2032-queue1])
+19:04:21.948 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@4a4cc59a]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[11], headers={amqp_receivedDeliveryMode=NON_PERSISTENT, amqp_receivedRoutingKey=2032-queue1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=false, id=47cde1a7-586f-16af-4645-8c678850a2a6, amqp_consumerTag=amq.ctag-FPKn5Wf9cxN3GttewHnsSg, amqp_lastInBatch=false, timestamp=1621863261941}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+19:07:18.536 [34mINFO [0;39m [  Thread-6] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:07:18.590 [34mINFO [0;39m [  Thread-6] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:07:19.505 [34mINFO [0;39m [  Thread-6] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:07:19.970 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:07:19.971 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:07:20.335 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:07:20.336 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:07:20.337 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:07:20.337 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:07:20.386 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:07:20.386 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 410 ms
+19:07:20.581 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:07:20.622 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:07:20.626 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:07:20.627 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:07:20.807 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#69a6972:0/SimpleConnection@4c817de9 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55168]
+19:07:20.982 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 1.071 seconds (JVM running for 338.577)
+19:07:20.983 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:07:20.986 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:07:20.987 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:09:20.065 [34mINFO [0;39m [  Thread-9] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:09:20.107 [34mINFO [0;39m [  Thread-9] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:09:20.452 [34mINFO [0;39m [  Thread-9] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:09:20.964 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:09:20.965 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:09:21.299 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:09:21.300 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:09:21.300 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:09:21.301 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:09:21.329 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:09:21.329 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 360 ms
+19:09:21.467 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:09:21.493 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:09:21.497 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:09:21.498 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:09:21.689 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#aaf265f:0/SimpleConnection@61a1385a [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55187]
+19:09:21.910 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 1.007 seconds (JVM running for 459.506)
+19:09:21.912 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:09:21.914 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:09:21.915 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:11:22.406 [34mINFO [0;39m [ Thread-14] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:11:22.455 [34mINFO [0;39m [ Thread-14] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:11:22.892 [34mINFO [0;39m [ Thread-14] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:11:23.443 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:11:23.443 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:11:23.831 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:11:23.832 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:11:23.833 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:11:23.833 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:11:23.867 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:11:23.867 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 421 ms
+19:11:24.005 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:11:24.030 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:11:24.037 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:11:24.038 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:11:24.206 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#3634ab99:0/SimpleConnection@4720000e [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55214]
+19:11:24.382 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.988 seconds (JVM running for 581.978)
+19:11:24.383 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:11:24.385 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:11:24.385 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:12:21.618 [34mINFO [0;39m [ Thread-19] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:12:21.670 [34mINFO [0;39m [ Thread-19] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:12:21.933 [34mINFO [0;39m [ Thread-19] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:12:22.733 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:12:22.734 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:12:23.229 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:12:23.230 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:12:23.231 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:12:23.232 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:12:23.297 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:12:23.297 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 559 ms
+19:12:23.552 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:12:23.584 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:12:23.591 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:12:23.594 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:12:23.784 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#4058e0ad:0/SimpleConnection@71ab282a [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55228]
+19:12:23.998 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 1.335 seconds (JVM running for 641.594)
+19:12:23.999 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:12:24.001 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:12:24.002 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:12:53.599 [34mINFO [0;39m [ Thread-24] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:12:53.656 [34mINFO [0;39m [ Thread-24] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:12:54.243 [34mINFO [0;39m [ Thread-24] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:12:54.867 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:12:54.867 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:12:55.374 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:12:55.375 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:12:55.375 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:12:55.376 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:12:55.398 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:12:55.398 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 528 ms
+19:12:55.532 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:12:55.550 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:12:55.556 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:12:55.557 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:12:55.737 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7ab59703:0/SimpleConnection@2b10dcbf [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55237]
+19:12:55.916 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 1.104 seconds (JVM running for 673.511)
+19:12:55.916 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:12:55.917 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:12:55.917 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:13:52.030 [34mINFO [0;39m [ Thread-29] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:13:52.080 [34mINFO [0;39m [ Thread-29] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:13:52.381 [34mINFO [0;39m [ Thread-29] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:13:53.081 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 14060 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:13:53.081 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:13:53.409 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:13:53.410 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:13:53.411 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:13:53.411 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:13:53.442 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:13:53.442 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 357 ms
+19:13:53.597 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:13:53.629 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:13:53.638 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:13:53.639 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:13:53.831 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#2524244b:0/SimpleConnection@5e6275e6 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55247]
+19:13:54.029 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.994 seconds (JVM running for 731.624)
+19:13:54.030 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:13:54.032 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:13:54.032 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:14:24.039 [34mINFO [0;39m [RMI TCP Connection(17)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+19:14:24.040 [34mINFO [0;39m [RMI TCP Connection(17)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:14:24.087 [34mINFO [0;39m [RMI TCP Connection(17)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:14:24.325 [34mINFO [0;39m [RMI TCP Connection(17)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:14:38.835 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 22188 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:14:38.839 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:14:38.968 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:14:38.969 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:14:40.804 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8080 (http)
+19:14:40.825 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+19:14:40.826 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:14:40.826 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:14:40.969 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:14:40.969 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 1999 ms
+19:14:42.044 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+19:14:42.269 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8080"]
+19:14:42.297 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+19:14:42.300 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:14:42.564 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7ee5fced:0/SimpleConnection@548f306e [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55269]
+19:14:42.808 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 4.765 seconds (JVM running for 6.423)
+19:14:42.810 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:14:42.812 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:14:47.095 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler[0;39m - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@2392f6dc]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[11], headers={amqp_receivedDeliveryMode=NON_PERSISTENT, amqp_receivedRoutingKey=2032-queue1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=false, id=28593eaf-0548-8eb6-9e1c-6006260fcabf, amqp_consumerTag=amq.ctag-TF4UjbK1GYV8-EsF0SZuqQ, amqp_lastInBatch=false, timestamp=1621863887090}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+19:14:47.097 [31mWARN [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.ConditionalRejectingErrorHandler$DefaultExceptionStrategy[0;39m - Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@16000cda(byte[11])' MessageProperties [headers={}, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, redelivered=false, receivedExchange=, receivedRoutingKey=2032-queue1, deliveryTag=1, consumerTag=amq.ctag-TF4UjbK1GYV8-EsF0SZuqQ, consumerQueue=2032-queue1])
+19:14:47.097 [1;31mERROR[0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:146)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1454)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1738)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1513)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:968)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:914)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:83)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1289)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1195)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.example.userqueuelistener.MessageListner.listner(com.example.userqueuelistener.CustomMessage)]
+Bean [com.example.userqueuelistener.MessageListner@2392f6dc]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:225)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:150)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1650)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1569)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1557)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1548)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1492)
+	... 6 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.example.userqueuelistener.CustomMessage] for GenericMessage [payload=byte[11], headers={amqp_receivedDeliveryMode=NON_PERSISTENT, amqp_receivedRoutingKey=2032-queue1, amqp_deliveryTag=1, amqp_consumerQueue=2032-queue1, amqp_redelivered=false, id=28593eaf-0548-8eb6-9e1c-6006260fcabf, amqp_consumerTag=amq.ctag-TF4UjbK1GYV8-EsF0SZuqQ, amqp_lastInBatch=false, timestamp=1621863887090}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:145)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:117)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:148)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:116)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:68)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:222)
+	... 13 common frames omitted
+19:15:28.457 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+19:15:28.457 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:15:28.503 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:15:29.451 [34mINFO [0;39m [RMI TCP Connection(4)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:35:42.115 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 25008 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:35:42.116 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:35:42.554 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+19:35:42.556 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:35:42.557 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:35:42.599 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:35:42.599 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 478 ms
+19:35:42.811 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+19:35:42.855 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+19:35:42.857 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:35:43.053 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7aed81e0:0/SimpleConnection@1576374b [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 55721]
+19:35:43.254 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 1.274 seconds (JVM running for 163.537)
+19:35:43.255 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:35:43.258 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+19:35:43.259 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:42:03.953 [34mINFO [0;39m [RMI TCP Connection(12)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+19:42:03.954 [34mINFO [0;39m [RMI TCP Connection(12)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:42:04.003 [34mINFO [0;39m [RMI TCP Connection(12)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:42:04.461 [34mINFO [0;39m [RMI TCP Connection(12)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+19:51:26.405 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on SBALLA-l1-2032 with PID 8988 (C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener\target\classes started by sballa1 in C:\Users\sballa1\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\user-queue-listener)
+19:51:26.409 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - No active profile set, falling back to default profiles: default
+19:51:26.504 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:51:26.505 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:51:28.469 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+19:51:28.485 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+19:51:28.485 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+19:51:28.486 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.46]
+19:51:28.582 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+19:51:28.582 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2076 ms
+19:51:29.577 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+19:51:29.727 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+19:51:29.761 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+19:51:29.765 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+19:51:30.045 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7594de27:0/SimpleConnection@72d85e02 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 56096]
+19:51:30.320 [34mINFO [0;39m [restartedMain] [36mc.e.u.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 4.665 seconds (JVM running for 6.421)
+19:51:30.323 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state LivenessState changed to CORRECT
+19:51:30.327 [34mINFO [0;39m [restartedMain] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+19:51:30.433 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mc.e.userqueuelistener.MessageListner    [0;39m - Recieved Message is: CustomMessage [messageId=cea44eef-75cb-4457-96be-14ddf6a55f98, messageBody=new Employee creatednarendramodi@gmail.com, messageDate=Mon May 24 19:51:07 IST 2021]
+19:53:47.091 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+19:53:47.092 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.b.a.ApplicationAvailabilityBean     [0;39m - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+19:53:47.141 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+19:53:47.671 [34mINFO [0;39m [RMI TCP Connection(6)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
